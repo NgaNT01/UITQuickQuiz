@@ -1,0 +1,11 @@
+CRITICAL - 2021-11-29 09:58:02 --> Undefined variable $users
+#0 C:\Apache24\htdocs\QuickQuiz\app\Views\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Apache24\\htd...', 35)
+#1 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(214): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Home.php(10): view('index')
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

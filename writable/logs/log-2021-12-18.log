@@ -1,0 +1,126 @@
+CRITICAL - 2021-12-18 21:49:12 --> Undefined array key "id"
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Apache24\\htd...', 11)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-18 21:54:00 --> Invalid file: Student/StartQuiz.php
+#0 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Student/StartQu...')
+#1 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/StartQu...', Array, true)
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(15): view('Student/StartQu...', Array)
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+CRITICAL - 2021-12-18 21:55:23 --> Undefined variable $id
+#0 C:\Apache24\htdocs\QuickQuiz\app\Views\Student\Quiz\StartQuiz.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Apache24\\htd...', 122)
+#1 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(214): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/Quiz/St...', Array, true)
+#4 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(15): view('Student/Quiz/St...', Array)
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#6 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#7 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2021-12-18 22:23:53 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 16)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-18 22:24:10 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 16)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-18 22:28:42 --> Trying to access array offset on value of type int
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Apache24\\htd...', 18)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-18 22:31:32 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 18)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-18 22:39:13 --> Undefined array key "id"
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Apache24\\htd...', 11)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-18 22:39:58 --> Unsupported operand types: string + string
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(15): App\Models\Quiz_model->startQuiz('1')
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-18 22:56:43 --> Undefined variable $id
+#0 C:\Apache24\htdocs\QuickQuiz\app\Views\Student\Quiz\StartQuiz.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Apache24\\htd...', 133)
+#1 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(214): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/Quiz/St...', Array, true)
+#4 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(14): view('Student/Quiz/St...', Array)
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#6 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#7 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2021-12-18 22:56:53 --> Undefined variable $id
+#0 C:\Apache24\htdocs\QuickQuiz\app\Views\Student\Quiz\StartQuiz.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Apache24\\htd...', 133)
+#1 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(214): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/Quiz/St...', Array, true)
+#4 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(14): view('Student/Quiz/St...', Array)
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#6 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#7 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2021-12-18 22:57:39 --> Undefined variable $id
+#0 C:\Apache24\htdocs\QuickQuiz\app\Views\Student\Quiz\StartQuiz.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Apache24\\htd...', 133)
+#1 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(214): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/Quiz/St...', Array, true)
+#4 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(14): view('Student/Quiz/St...', Array)
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#6 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#7 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}
+CRITICAL - 2021-12-18 23:00:44 --> Undefined variable $id
+#0 C:\Apache24\htdocs\QuickQuiz\app\Views\Student\Quiz\StartQuiz.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Apache24\\htd...', 133)
+#1 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(214): include('C:\\Apache24\\htd...')
+#2 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/Quiz/St...', Array, true)
+#4 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\QuizController.php(14): view('Student/Quiz/St...', Array)
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\QuizController->startQuiz()
+#6 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\QuizController))
+#7 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#10 {main}

@@ -1,0 +1,31 @@
+CRITICAL - 2021-12-15 10:33:46 --> Invalid file: Student/MainOK.php
+#0 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Student/MainOK....')
+#1 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/MainOK', Array, true)
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(21): view('Student/MainOK', Array)
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->index()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+CRITICAL - 2021-12-15 10:36:05 --> Invalid file: Student/Home.php
+#0 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Student/Home.ph...')
+#1 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/Home', Array, true)
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(21): view('Student/Home', Array)
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->index()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+CRITICAL - 2021-12-15 11:20:57 --> Invalid file: Student/Layout/Sideba.php
+#0 C:\Apache24\htdocs\QuickQuiz\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Student/Layout/...')
+#1 C:\Apache24\htdocs\QuickQuiz\system\Common.php(1097): CodeIgniter\View\View->render('Student/Layout/...', Array, true)
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\BaseController.php(57): view('Student/Layout/...')
+#3 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(18): App\Controllers\BaseController->loadMasterLayout('Trang ch\xE1\xBB\xA7', 'Home', 'Home')
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->index()
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#6 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#9 {main}

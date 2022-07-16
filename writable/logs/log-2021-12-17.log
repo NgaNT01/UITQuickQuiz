@@ -1,0 +1,348 @@
+ERROR - 2021-12-17 05:42:10 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:42:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:42:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:42:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:42:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:42:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:42:44 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:42:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:42:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:42:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:43:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:43:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:44:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:44:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:44:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:44:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:44:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:44:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:45:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:45:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:45:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:45:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:45:18 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:45:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:45:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:45:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:45:38 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:45:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 05:45:46 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 05:45:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:31:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:31:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:31:46 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:31:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:31:56 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:31:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:33:28 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:33:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:33:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:33:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:33:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:33:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:34:39 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:34:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:35:23 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:35:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:36:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:36:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:36:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:36:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:37:01 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:37:01 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:37:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:37:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:37:10 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:37:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}
+ERROR - 2021-12-17 06:39:38 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-17 06:39:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Apache24\htdocs\QuickQuiz\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Apache24\htdocs\QuickQuiz\app\Models\Quiz_model.php(18): CodeIgniter\Database\BaseConnection->query('select descript...')
+#2 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Student\HomeController.php(30): App\Models\Quiz_model->fetch_data('6', '0')
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Student\HomeController->fetch()
+#4 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student\HomeController))
+#5 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#8 {main}

@@ -1,0 +1,81 @@
+CRITICAL - 2021-12-01 03:12:02 --> Undefined array key "id"
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Apache24\\htd...', 19)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->show()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-01 03:13:04 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 19)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->show()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-01 03:13:06 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 19)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->show()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-01 03:14:59 --> Undefined array key "id"
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Apache24\\htd...', 19)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->show()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-01 06:09:56 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 64)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->fetch()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-01 06:10:19 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 64)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->fetch()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-01 06:18:31 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 68)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->fetch()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-01 06:19:56 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 68)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->fetch()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+CRITICAL - 2021-12-01 06:21:20 --> Array to string conversion
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Apache24\\htd...', 68)
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->fetch()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
+ERROR - 2021-12-01 07:06:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 2' at line 1
+CRITICAL - 2021-12-01 07:06:19 --> Call to a member function getResult() on bool
+#0 C:\Apache24\htdocs\QuickQuiz\app\Controllers\Scroll_pagination.php(49): App\Models\Scroll_pagination_model->fetch_data('', '2')
+#1 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(824): App\Controllers\Scroll_pagination->fetch()
+#2 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scroll_pagination))
+#3 C:\Apache24\htdocs\QuickQuiz\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Apache24\htdocs\QuickQuiz\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Apache24\htdocs\QuickQuiz\system\Commands\Server\rewrite.php(43): require_once('C:\\Apache24\\htd...')
+#6 {main}
